@@ -1,0 +1,102 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap';
+
+:global {
+  .ms-SPLegacyFabricBlock{
+    background-color: #83ca5b;
+  }
+
+  // .headerRow-45{
+  //   display: none !important;
+  // }
+
+}
+
+
+  .header{
+
+
+    .numrex_image{
+      height: 20px;
+      width: 20px;
+      padding: 5px;
+    }
+
+    
+    .mainHeader{
+      display: inline;
+
+      .Category{
+        width: max-content;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        display: inline-block;
+        margin: 10px;
+  
+      }
+      .SubCategory{
+        display: none;
+      }
+      .MenuItemsCss{
+        display: none;
+        
+        
+      }
+
+
+      .Category:hover .SubCategory{
+        cursor: pointer;
+          margin: 5px;
+          font-size: 17px;
+          display:block;
+          background-color: #dbdbdb;
+          max-width: max-content;
+        }
+
+      .SubCategory:hover .MenuItemsCss{
+        cursor: pointer;
+          display:block;
+          padding: 5px;
+          font-size: 13px;
+          margin: 5px;
+        }
+
+      
+
+  
+    }
+
+    .loremparagraph{
+      width: 100%;
+      background-color: #fc9fa9;
+      font-size: medium;
+      
+    }
+
+    
+    
+  
+  
+
+
+.clear {
+  clear: both;
+}
+
+
+.loader {
+  text-align: center;
+  justify-content: center;
+}
+
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #fc9fa9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+}

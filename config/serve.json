@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations":{
+    "default": {
+      "pageUrl": "https://numrexpk.sharepoint.com/sites/KeaPoint/SitePages/Home.aspx",
+      "customActions": {
+        "311be836-f9f9-4192-9d5b-6544378c566c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "HeaderListName": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
